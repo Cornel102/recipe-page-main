@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3e5d8;
+}
+
+h1,
+h2,
+h4 {
+    font-family: "Young serif", serif;
+}
+
+p {
+    font-family: "outfit", sans-serif;
+    color:  #808080;
+}
+
+.simple {
+    color: hsl(24, 5%, 18%);
+    margin: 1rem 0rem;
+}
+
+#Recipe-container {
+    background-color: white;
+    margin: 4.5rem auto;
+    width: 735px;
+    border-radius: 0.7rem;
+}
+
+.Recipe-card-data {
+    padding: 2.5rem;
+}
+
+.img-100 {
+    width: 655px;
+    border-radius: 0.7rem;
+}
+
+.mobile-img {
+    display: none;
+}
+
+.prepare {
+    background-color: rgb(255, 240, 242);
+    margin: 1.5rem 0rem;
+    padding: 1rem 0rem 1rem 3rem;
+    border-radius: 0.7rem;
+}
+
+.prepare-head {
+    font-family: "outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    font-family: "outfit", sans-serif;
+    padding-left: 0.6rem;
+    margin: .8rem 0rem;
+    color:  #808080;
+}
+
+.for-h2 {
+    color: #854632;
+    padding-right: 2rem;
+}
+
+.divide {
+    background-color: rgb(204, 203, 203);
+    height: 1px;
+    margin: 1.4rem 0rem;
+}
+
+.egg-b {
+    padding: 0rem 1.8rem;
+}
+
+.Ingredients-large {
+    padding-left: 2rem;
+}
+
+.instruct {
+    line-height: 1.5rem;
+}
+
+.nutrition-paragragh {
+    padding: 1rem 0rem;
+}
+
+.cards {
+    display: flex;
+}
+
+.nutrient-list {
+    padding-left: 1.8rem;
+    width: 345px;
+}
+
+.digits-list {
+    color: #854632;
+    font-weight: 600;
+}
+
+.nutrition-table {
+    padding-top: 1.5rem;
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 600px) {
+  #Recipe-container {
+    width: 100%;
+    margin: 0rem auto;
+  }
+
+  .img-100 {
+    display: none;
+  }
+
+  .mobile-img {
+    width: 100%;
+    display: block;
+  }
+}
